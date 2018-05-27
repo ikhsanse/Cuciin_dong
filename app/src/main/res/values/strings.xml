@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CuciinDong</string>
+    <string name="hi">Hi,</string>
+    <string name="txt_saya">Saya</string>
+    <string name="hi_customer">Saya Customer</string>
+    <string name="hi_mitra">Saya Mitra</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="next">Next</string>
+    <string name="name">nama</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="telp">telepon</string>
+    <string name="alamat">alamat</string>
+    <string name="register_p">Daftar disini!</string>
+    <string name="login_p">Sudah punya akun? Login >></string>
+    <string name="data_pemilik">Data pemilik</string>
+    <string name="data_laundry">Data laundry</string>
+    <string name="list_pesanan">List Pesanan</string>
+    <string name="strip">-</string>
+    <string name="laundry">Laundry</string>
+    <string name="gapakeribet">gapake ribet</string>
+    <string name="location">Beji, Depok</string>
+    <string name="nama_laundry">Nama Laundry</string>
+    <string name="nama_laundry_low">nama laundry</string>
+    <string name="alamat_laundry">Jl. Alamat Laundry No.100, Depok, Jawa Barat</string>
+    <string name="hari_laundry">Sen-Sab</string>
+    <string name="jam_laundry">07:00-20:00</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+
+</resources>

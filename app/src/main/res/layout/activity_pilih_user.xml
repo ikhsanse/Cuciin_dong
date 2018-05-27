@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi"
+            android:textSize="24sp"
+            android:textColor="#f9f9f9"
+            android:layout_gravity="center"
+            android:contentDescription=""
+            />
+
+        <TextView
+            android:id="@+id/saya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/txt_saya"
+            android:textSize="24sp"
+            android:textColor="#f9f9f9"
+            android:layout_gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/logo_customer"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_customer"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_logo_mitra"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_customer"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

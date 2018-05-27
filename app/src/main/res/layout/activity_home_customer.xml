@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gir.cuciindong.HomeCustomer"
+    android:background="#f2f2f2">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_action_bar"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_panjang" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_below="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:src="@drawable/foto_laundry"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/action_bar"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="end">
+
+            <ImageView
+                android:id="@+id/img_loc"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_toEndOf="@id/img_loc"
+                android:text="@string/location"
+                android:textColor="#f9f9f9"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/strip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strip"
+            android:textSize="32sp"
+            android:textColor="#f9f9f9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/laundry"
+            android:textColor="#f9f9f9"
+            android:textSize="28sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gapakeribet"
+            android:textColor="#f9f9f9"
+            android:textSize="28sp"
+            />
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/action_bar"
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp">
+    </SearchView>
+
+    <ListView
+        android:layout_below="@id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

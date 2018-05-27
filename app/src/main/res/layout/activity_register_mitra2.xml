@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gir.cuciindong.register_mitra2"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/layout_register_mitra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/layout_register_mitra"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/img_logo_mitra"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"/>
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_logo_mitra"
+        android:layout_marginTop="60dp"
+        android:textColor="#f9f9f9"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/txt_register"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:background="#00000000"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/txt_data_laundry"
+        android:layout_below="@id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/data_laundry"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        />
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_data_laundry"
+        android:layout_centerHorizontal="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/et_nama_laundry"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/nama_laundry_low"
+                android:textSize="16sp"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/et_alamat_laundry"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/alamat"
+                android:textSize="16sp"
+                android:inputType="textLongMessage"/>
+
+            <EditText
+                android:id="@+id/et_telepon_laundry"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/telp"
+                android:textSize="16sp"
+                android:inputType="phone"
+                />
+
+
+            <Button
+                android:id="@+id/btn_register_mitra"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="12dp"
+                android:textSize="16sp"
+                android:text="@string/register"
+                android:textColor="#ffffff"
+                android:background="@drawable/roundedbutton"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
