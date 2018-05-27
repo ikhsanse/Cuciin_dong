@@ -34,7 +34,8 @@ public class RegisterMitra1 extends AppCompatActivity {
             c.setNama_laundry(nama_laundry);
             c.setAlamat_laundry(alamat_laundry);
             c.setTlp_laundry(no_tlp_laundry);
-
+			
+			//jago lu bre
             helper.insertContact(c);
 
 
