@@ -7,7 +7,7 @@
     tools:context="gir.cuciindong.LoginMitra"
     android:background="@drawable/gradient">
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <ImageView
         android:id="@+id/layout_login_mitra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,14 +16,14 @@
         android:background="@drawable/layout_login_mitra"
         android:scaleType="fitXY"/>
 
-    <android.support.v7.widget.AppCompatImageView
+    <ImageView
         android:id="@+id/img_logo_mitra"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <TextView
         android:id="@+id/txt_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:textColor="#f9f9f9"
         />
 
-    <android.support.design.widget.TextInputEditText
+    <EditText
         android:id="@+id/et_email_login_mitra"
         android:layout_below="@id/txt_login"
         android:layout_width="200dp"
@@ -47,7 +47,7 @@
         android:inputType="textEmailAddress"
         android:maxLines="1"/>
 
-    <android.support.design.widget.TextInputEditText
+    <EditText
         android:id="@+id/et_password_login_mitra"
         android:layout_below="@id/et_email_login_mitra"
         android:layout_width="200dp"
@@ -58,7 +58,7 @@
         android:inputType="textPassword"
         android:maxLines="1"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/btn_login_mitra"
         android:layout_below="@id/et_password_login_mitra"
         android:layout_width="200dp"
@@ -71,8 +71,8 @@
         android:background="@drawable/roundedbutton"
         android:textAllCaps="false"/>
 
-    <android.support.v7.widget.AppCompatTextView
-        android:id="@+id/btn_register_p"
+    <Button
+        android:id="@+id/btn_register"
         android:text="@string/register_p"
         android:layout_below="@id/btn_login_mitra"
         android:layout_width="wrap_content"
